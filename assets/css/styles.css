@@ -30,6 +30,9 @@ a {
 }
 
 .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     min-width: 118px;
     padding: 12px 24px;
@@ -94,6 +97,7 @@ header {
 /* ===== Hero ===== */
 .hero {
     padding-top: 64px;
+    padding-bottom: 65px;
     background: #fffcf4;
 }
 
@@ -253,4 +257,146 @@ header {
     font-family: Sen;
     font-style: normal;
     font-weight: 700;
+}
+
+/* ===== Courses ===== */
+.courses .content {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.courses .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses .header .title {
+    color: #171100;
+    font-size: 3.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.76px;
+}
+
+.courses .header .desc {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.courses .header .more-page {
+    width: 98px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.courses .header .more-page .icon-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #ffb900;
+    border: 1px solid #ffb900;
+    border-radius: 50%;
+}
+
+.courses .header .more-page .icon-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #ffb900;
+    border-radius: 50%;
+}
+
+.courses .course-list {
+    display: flex;
+}
+
+.courses .course-item:not(:first-of-type) {
+    margin-left: 30px;
+}
+
+.courses .course-item .course-img {
+    width: 370px;
+    height: 278px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.courses .course-item .title {
+    color: #171100;
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.courses .course-item .info {
+    margin: 16px 22px 22px;
+}
+
+.courses .course-item .course-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .course-item .course-header .rate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .course-item .rate .qty {
+    margin-left: 6px;
+}
+
+.courses .course-item .rate .qty {
+    color: #fea31b;
+    font-size: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.courses .course-item .desc {
+    margin-top: 6px;
+    width: 326px;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.courses .course-item .more-info {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .course-item .fee {
+    color: #171100;
+    font-size: 1.8rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.courses .course-item .cta-book {
+    border-radius: 25px;
+    background: #ffb900;
 }
