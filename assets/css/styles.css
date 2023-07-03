@@ -319,6 +319,7 @@ header {
 }
 
 .courses .course-list {
+    margin-top: 55px;
     display: flex;
 }
 
@@ -399,4 +400,60 @@ header {
 .courses .course-item .cta-book {
     border-radius: 25px;
     background: #ffb900;
+}
+
+/* ===== Testimonial ===== */
+.testimonial {
+    height: 380px;
+    background: #2e2100;
+}
+
+.testimonial .content {
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial .author .author-name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-size: 2.4rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.testimonial .author .author-role {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.testimonial .author .icon-more {
+    margin-top: 28px;
+}
+
+.testimonial .context {
+    position: relative;
+}
+
+.testimonial .context .icon-comma {
+    position: absolute;
+    top: -28px;
+    left: -30px;
+}
+
+.testimonial .context .text {
+    width: 740px;
+    color: #fff;
+    font-size: 2.6rem;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 40px;
 }
