@@ -87,7 +87,7 @@ header {
     border-radius: 100px;
     background-color: #171100;
 }
-.btn-sign-up {
+.menu .btn-sign-up {
     display: flex;
     align-items: center;
     margin-left: 70px;
@@ -461,14 +461,15 @@ header {
 .features .content {
     margin-top: 200px;
     display: flex;
+    justify-content: space-between;
 }
 
 .feature-picture {
-    position: relative;
+    display: flex;
+    gap: 0 30px;
 }
 
 .feature-picture img {
-    position: absolute;
     object-fit: cover;
     display: block;
     width: 270px;
@@ -477,13 +478,14 @@ header {
 }
 
 .feature-picture img:first-of-type {
-    top: 34px;
-    left: 0;
+    margin-top: 34px;
 }
 
-.feature-picture img:nth-child(2) {
-    top: 0px;
-    left: 300px;
+.features .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .features .title {
@@ -499,6 +501,7 @@ header {
 
 .features .desc,
 .features .source-info {
+    margin-top: 16px;
     width: 458px;
     color: #5f5b53;
     font-size: 1.6rem;
@@ -506,4 +509,14 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+.features .btn-sign-up {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    padding: 11px 37px;
+    border-radius: 26px;
+    background: #ffb900;
+    min-width: 137px;
 }
