@@ -523,6 +523,7 @@ header {
 /* ===== CTA ===== */
 .cta .content {
     margin-top: 200px;
+    margin-bottom: 200px;
     display: flex;
     justify-content: space-between;
 }
@@ -582,4 +583,71 @@ header {
     border-radius: 26px;
     background: #ffb900;
     min-width: 137px;
+}
+
+/* ===== BLOG ===== */
+
+.blog {
+    padding: 96px 0px;
+    background: #fffcf4;
+}
+
+.blog-top {
+    text-align: center;
+}
+
+.blog .title {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.76px;
+}
+
+.blog .desc {
+    margin: 16px auto auto;
+    width: 448px;
+    color: #696262;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.list-blog {
+    display: flex;
+    gap: 0px 30px;
+}
+
+.blog-item .blog-img {
+    width: 370px;
+    height: 250px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.blog-item .time {
+    margin-left: 10px;
+    position: relative;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.blog-item .time::before {
+    position: absolute;
+    left: -10px;
+    top: 10px;
+    content: "";
+    width: 100px;
+    height: 100px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #ffb900;
 }
