@@ -520,3 +520,66 @@ header {
     background: #ffb900;
     min-width: 137px;
 }
+/* ===== CTA ===== */
+.cta .content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-picture {
+    display: flex;
+    gap: 0 30px;
+}
+
+.cta-picture img {
+    object-fit: cover;
+    display: block;
+    width: 470px;
+    height: 440px;
+    border-radius: 16px;
+}
+
+.cta-picture img:first-of-type {
+    margin-top: 34px;
+}
+
+.cta .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cta .title {
+    width: 470px;
+    color: #171100;
+    font-size: 3.8rem;
+    font-family: Sen;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.76px;
+}
+
+.cta .desc,
+.cta .source-info {
+    margin-top: 16px;
+    width: 458px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.cta .btn-sign-up {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    padding: 11px 37px;
+    border-radius: 26px;
+    background: #ffb900;
+    min-width: 137px;
+}
