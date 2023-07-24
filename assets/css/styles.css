@@ -88,8 +88,6 @@ header {
     background-color: #171100;
 }
 .menu .btn-sign-up {
-    display: flex;
-    align-items: center;
     margin-left: 70px;
     padding: 11px 41px;
 }
@@ -618,6 +616,7 @@ header {
 }
 
 .list-blog {
+    margin-top: 55px;
     display: flex;
     gap: 0px 30px;
 }
@@ -629,6 +628,7 @@ header {
 }
 
 .blog-item .time {
+    margin-top: 20px;
     margin-left: 10px;
     position: relative;
     color: #5f5b53;
@@ -650,4 +650,57 @@ header {
     height: 6px;
     border-radius: 50%;
     background-color: #ffb900;
+}
+
+.blog-item .time::after {
+    position: absolute;
+    left: -10px;
+    top: 35px;
+    content: "";
+    width: 100px;
+    height: 100px;
+    width: 160px;
+    height: 1px;
+    background-color: #e2dfda;
+}
+
+.blog-item .title-item {
+    margin-top: 12px;
+    width: 330px;
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 175% */
+}
+
+.blog-item .btn {
+    margin-top: 12px;
+    width: 118px;
+    font-size: 1.4rem;
+    padding: 12px 21px;
+}
+
+.blog-item .btn:hover {
+    background: #ffb900;
+    cursor: pointer;
+}
+
+.blog .dots {
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 0px 6px;
+}
+
+.blog .dots .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #5f5b53;
+}
+
+.blog .dots .active {
+    background: #ffb900;
 }
