@@ -644,8 +644,6 @@ header {
     left: -10px;
     top: 10px;
     content: "";
-    width: 100px;
-    height: 100px;
     width: 6px;
     height: 6px;
     border-radius: 50%;
@@ -657,8 +655,6 @@ header {
     left: -10px;
     top: 35px;
     content: "";
-    width: 100px;
-    height: 100px;
     width: 160px;
     height: 1px;
     background-color: #e2dfda;
@@ -703,4 +699,81 @@ header {
 
 .blog .dots .active {
     background: #ffb900;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    background-color: #2e2100;
+}
+
+.footer .content .row {
+    padding-top: 96px;
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+}
+
+.footer .end-intro {
+    width: 267px;
+}
+
+.footer .end-intro .message {
+    margin-top: 18px;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer .end-intro .social {
+    margin-top: 18px;
+    display: flex;
+    gap: 20px;
+}
+
+.footer .end-intro .social i {
+    color: #ffffff;
+}
+
+.footer .title {
+    padding: 0px 0px 14px 0px;
+    border-bottom: solid 1px #59554b;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.footer .list li a {
+    display: inline-block;
+    margin-top: 12px;
+    max-width: 231px;
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer .list li:first-child a {
+    margin-top: 28px;
+}
+
+.footer li strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.footer .copyright {
+    padding: 28px 0px 28px 0px;
+    color: #807d74;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 400;
 }
