@@ -49,15 +49,21 @@ a {
 header {
     background: #fffcf4;
 }
-.fixed-header {
+.header.fixed-header {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    z-index: 1;
+    top: -28px;
+}
+.header .content {
     padding-top: 36px;
+    padding-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
 }
 
-.fixed-header .nav {
+.header .nav {
     display: flex;
     align-items: center;
 }
@@ -94,7 +100,7 @@ header {
 
 /* ===== Hero ===== */
 .hero {
-    padding-top: 64px;
+    padding-top: 56px;
     padding-bottom: 65px;
     background: #fffcf4;
 }
@@ -396,6 +402,11 @@ header {
 }
 
 .courses .course-item .cta-book {
+    border-radius: 25px;
+    background: #171100;
+}
+
+.courses .course-item .cta-book:hover {
     border-radius: 25px;
     background: #ffb900;
 }
